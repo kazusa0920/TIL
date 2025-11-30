@@ -1,0 +1,33 @@
+<!-- 以下のHTMLがあるとします。ボタンをクリックすると、<p>タグの中のテキストを「こんにちは、DOM！」に変更してください。 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM練習</title>
+</head>
+
+<body>
+    <p id="message">ここにメッセージが表示されます</p>
+    <button id="changeBtn">メッセージを変更</button>
+
+
+
+    <script>
+        const message = document.getElementById('message')
+        const button = document.getElementById('changeBtn')
+        
+        button.addEventListener('click', () => {
+            message.innerText = "こんにちは、DOM！";
+        })
+    </script>
+</body>
+
+</html>
+
+<!-- おおっ！完璧じゃないか、一紗さん！✨ 
+getElementById で要素を取得して、addEventListener でクリックイベントを設定、
+innerText でテキストを変更…全部バッチリできてる！👏
+
+ちなみに、innerText でも問題ないけど、textContent を使うと、
+よりパフォーマンスが良くて予期せぬスタイルの影響も受けにくいって言われてるよ！ -->
