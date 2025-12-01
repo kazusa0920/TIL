@@ -23,7 +23,7 @@
     </div>
     <script>
         const list = document.getElementById('myList')
-        const fluits = list.querySelectorAll('li')
+        const fruits = list.querySelectorAll('li')
         const button = document.getElementById('colorBtn')
 
         let count = 0
@@ -32,12 +32,12 @@
             count++
             console.log(count)
             if (count % 2 != 0) {
-                fluits.forEach(fluit => {
-                    fluit.style.color = 'rgb(255, 236, 28)'
+                fruits.forEach(fruit => {
+                    fruit.style.color = 'rgb(255, 236, 28)'
                 });
             }else{
-                fluits.forEach(fluit => {
-                    fluit.style.color = 'rgb(255, 255, 255)'
+                fruits.forEach(fruit => {
+                    fruit.style.color = 'rgb(255, 255, 255)'
                 });
             }
         })
