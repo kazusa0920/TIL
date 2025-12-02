@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM操作演習（難易度2）</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>JavaScript DOM操作演習</h1>
+
+    <ul id="task-list">
+        <li id="task-1" class="list-item">牛乳を買う</li>
+        <li id="task-2" class="list-item">パンを焼く</li>
+        <li id="task-3" class-name="list-item">ジムに行く</li>
+    </ul>
+
+    <button id="add-button">新しいタスクを追加</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
+タスク 1: 特定のタスクの変更 (IDによる選択
+
+
+IDが task-2 の要素（パンを焼く）をJavaScriptで取得してください。
+
+その要素のテキスト内容を「プログラミングの勉強をする」に書き換えてください。
+
+
+
+タスク 2: クラスの追加と削除（装飾の変更）
+
+
+IDが task-1 の要素（牛乳を買う）をJavaScriptで取得してください。
+
+その要素に highlight というクラスを追加して、背景色を黄色にしてください。
+
+IDが task-3 の要素（ジムに行く）をJavaScriptで取得してください。
+
+その要素に completed というクラスを追加して、取り消し線を引いてください。
+
+
+
+タスク 3: 新しいタスクの追加（イベント処理）
+
+
+IDが add-button のボタンに、クリックイベントリスナーを設定してください。
+
+ボタンがクリックされるたびに以下の処理を実行してください。
+
+新しい <li> 要素を作成する。
+
+    新しい<li> 要素のテキスト内容を「新しいタスク」に設定する。
+
+    その新しい<li> 要素を、IDが task-list のリストの最後に追加する。
+
+
+タスク 4: すべてのタスクの一括操作
+
+
+クラス名が list-item の要素すべてをJavaScriptで取得してください。
+
+それらをループ処理し、各要素のテキストの色を青色（blue）に設定してください。（※CSSクラスではなく、styleプロパティを使ってください。）
+
+
+タスク 5: タスクの削除（応用）
+
+
+タスク 3で追加した要素を除く、既存のリスト要素（task-listの子要素）をすべて取得してください。
+
+それらの中で最初の要素（牛乳を買う）を、DOMから削除してください。 -->
