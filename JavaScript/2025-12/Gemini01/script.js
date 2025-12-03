@@ -11,5 +11,16 @@ let task03 = document.getElementById('task-3')
 task03.classList.add('completed')
 
 addButton.addEventListener('click', () => {
-    
+    const newListItem = document.createElement('li')
+    newListItem.textContent = '新しいタスク'
+    newListItem.classList.add('list-item')
+    taskList.appendChild(newListItem)
 })
+
+const allItems = taskList.querySelectorAll('.list-item')
+
+allItems.forEach(item => {
+    item.style.color = 'blue'
+})
+
+const listItems = taskList.querySelectorAll('li')
