@@ -1,0 +1,23 @@
+.answer {
+    display: none;
+    margin-left: 1em;
+    padding-bottom: 20px;
+}
+
+.answer.active {
+    display: block;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.question {
+    display: block;
+}
+
+.item {
+    border: 1px solid;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
