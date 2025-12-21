@@ -10,6 +10,23 @@ header {
     margin-block: 50px;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.7rem;
+  letter-spacing: 0.7rem;
+}
+
+.wrapper {
+  width: 1080px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+
 .top-slider {
     display: flex;
     overflow: hidden;
@@ -33,4 +50,48 @@ header {
   to {
     transform: translateX(-50%);
   }
+}
+
+/*  CONCEPT
+---------------------------------------------------------*/
+.concept {
+  background-image: url(img/bg-top-concep.png);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-size: cover;
+}
+
+.concept-cont {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.concept-text {
+  text-align: center;
+  color: white;
+}
+
+.concept-bold-text {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.concept-text p {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 200%;
+}
+
+.concept-img {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.concept-img img {
+  width: 225px;
 }
