@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 73px;
+    border-bottom: 2px solid var(--border-primary);
+    padding-inline: 16px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.button-area {
+    display: flex;
+    gap: 4px;
+}
+
+.login-button {
+    padding: 11px 26px;
+    border: 2px solid var(--border-primary);
+    border-radius: 100vh;
+    font-weight: bold;
+    color: var(--font-primary);
+}
+
+.signup-button {
+    padding: 11px 26px;
+    border: 2px solid var(--border-black);
+    border-radius: 100vh;
+    font-weight: bold;
+    color: var(--font-black);
+    background-color: var(--bg-accent);
+}
+

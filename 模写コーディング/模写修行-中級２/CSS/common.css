@@ -1,0 +1,30 @@
+:root {
+    --bg-base: #FAFAFA;
+    --bg-primary: #C7A26C;
+    --bg-primary-light: #C7A26C;
+    --bg-primary-extra-light: #C7A26C;
+    --bg-secondary: #52442F;
+    --bg-black: #333333;
+    --bg-white: #FFFFFF;
+    --bg-accent: #FF9800;
+
+    --border-gray: #DDDDDD;
+    --border-primary: #C7A26C;
+    --border-black: #333333;
+
+    --font-primary: #C7A26C;
+    --font-black: #333333;
+    --font-white: #FFFFFF;
+    --font-link: #4895E6;
+    --font-base: #8D857E;
+}
+
+body {
+    font-family: 'Noto Sans JP', Sans-serif;
+}
+
+.container {
+    width: min(90%, 760px);
+    margin-inline: auto;
+    
+}
