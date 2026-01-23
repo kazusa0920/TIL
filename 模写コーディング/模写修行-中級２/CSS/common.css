@@ -24,7 +24,6 @@ body {
 }
 
 .container {
-    width: min(90%, 760px);
+    width: min(90%, 1000px);
     margin-inline: auto;
-    
 }
