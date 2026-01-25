@@ -1,5 +1,5 @@
 html {
-    color: #000;
+    color: var(--font-base);
     background: #fff;
 }
 
